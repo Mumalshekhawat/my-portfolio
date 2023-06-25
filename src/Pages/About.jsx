@@ -30,20 +30,27 @@ function About() {
         <div className="html">
           <h4>HTML5</h4>
           <h4>60%</h4> 
-          <div className="blank"></div>
+          <div className='div1'></div>
+          <div className="div2"></div>
         </div>
         <div className="css">
           <h4>CSS3</h4>
           <h4>50%</h4>
+          <div className='div3'></div>
+          <div className='div4'></div>
         </div>
       
         <div className="js">
           <h4>JAVASCRIPT</h4>
           <h4>50%</h4>
+          <div className="div5"></div>
+          <div className="div6"></div>
         </div>
         <div className="react ">
           <h4>REACT</h4>
           <h4>60%</h4>
+          <div className="div7"></div>
+          <div className="div8"></div>
         </div>
         </div>
 

@@ -16,7 +16,7 @@ function Contact() {
       </div>
       <div className="contentc">
         <input type="text" placeholder='ENTER SUBJECT' />
-      </div>
+      </div> <br />
       <div className="contentd">
         <input type="text" placeholder='SUBJECT DETAILS....' />
       </div>
