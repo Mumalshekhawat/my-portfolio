@@ -1,38 +1,186 @@
+body {
+  color: rgb(91, 88, 88);
+}
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image1 img {
+  height: 480px;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+#one {
+  font-size: 3rem;
+}
+#two {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.content {
+  margin-left: 45%;
+  margin-top: -37%;
+}
+.btn {
+  margin-left: 50%;
+  margin-top: 7%;
+}
+.btn button {
+  padding: 8px;
+  border-radius: 10px;
+}
+.navbar {
+  background-color: grey;
+  overflow: auto;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+  margin-left: 50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+li {
+  float: left;
+  list-style: none;
+  padding: 2%;
+  font-size: larger;
+}
+.nav {
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+}
+.nav:hover {
+  background-color: rgb(114, 113, 113);
+  border-radius: 5px;
+}
+.main3,.main2 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.content3b {
+  padding: 10px;
+}
+.content2 h1 {
+  font-size: 3rem;
+}
+.content2a {
+  margin-left: 18%;
+}
+.card {
+  border: 2px solid orange;
+  padding: 6% 2%;
+  border-radius: 15px;
+  margin: 5%;
+  float: left;
+  width: 15%;
+  height: 80px;
+}
+.card h1 {
+  margin-top: -15%;
+}
+.content3 h1 {
+  font-size: 4rem;
+}
+.content3a {
+  float: left;
+  margin-left: 8%;
+}
+.content3b input {
+  padding: 20px;
+  margin: 5px;
+  border-radius: 35px;
+  font-size: large;
+  background: rgb(176, 174, 174);
+}
+.contentc input {
+  padding: 20px;
+  margin: 10px;
+  width: 40%;
+  border-radius: 35px;
+  font-size: large;
+  background: rgb(176, 174, 174);
+}
+.contentd input {
+  border-radius: 35px;
+  background: rgb(176, 174, 174);
+  height: 200px;
+  margin-left: 25%;
+  width: 340px;
+  font-size: large;
+}
+.contentbtn input{
+  height: 30px;
+  width: 130px;
+  border-radius: 10px;
+  margin-left: 9%;
+  margin-top:1% ;
+}
+button:hover {
+  background-color: burlywood;
+}
+.aboutbtn {
+  margin-top: 25%;
+  margin-right: 40%;
+}
+.aboutbtn button {
+  padding: 10px;
+  border-radius: 10px;
+}
+.skill {
+  margin-top: 2%;
+}
+.myskill {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.html {
+  margin-right: 50%;
+}
+.css {
+  margin-top: -5%;
+  margin-left: 15%;
+}
+.js {
+  margin-right: 50%;
+}
+.react {
+  margin-top: -5%;
+  margin-left: 15%;
+}
+
+.main4 {
+  text-align: center;
+}
+.content4 {
+  font-family: sans-serif;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 2% 15%;
 }
-
-.App-link {
-  color: #61dafb;
+.image4 img {
+  height: 180px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content4a {
+  margin: 2%;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 5%;
+  padding: 15px;
+}
+.content4a:hover {
+  box-shadow: 0 5px 5px 0 grey;
+  background-color: bisque;
+}
+.content4aa {
+  color: rgb(24, 107, 98);
+  text-shadow: 2px 2px rgb(197, 47, 197);
+  margin-top: -1%;
+}
+.content4ab {
+  margin-top: -1%;
+}
+#contentone {
+  color: rgb(91, 88, 88);
+  font-family: sans-serif;
+  font-size: 3.5rem;
 }
